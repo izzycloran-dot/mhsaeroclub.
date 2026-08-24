@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Getting Involved | Mustang Aviation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="logo">
+    <img src="logo.png" alt="Mustang Aviation" class="logo-img">
+    <span class="logo-cat">😺</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="getting-involved.html" class="active">Getting Involved</a></li>
+    <li><a href="point-log-form.html">Point Log Form</a></li>
+    <li><a href="leaderboard.html">Leaderboard</a></li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <h1>Getting Involved!!</h1>
+</header>
+
+<section class="section">
+  <p class="intro-text">Aviation is the perfect place for anyone interested in becoming a pilot, engineering, design, rocketry, leadership, and community!</p>
+
+  <div class="accordion">
+    <div class="accordion-item">
+      <button class="accordion-header">I WANT TO BE A PILOT <span class="chev">⌄</span></button>
+      <div class="accordion-body">
+        <p><strong>YOUNG EAGLE FLIGHTS</strong> — <a href="https://events.eaachapters.org/" target="_blank" rel="noopener">events.eaachapters.org</a> — Young Eagle Flights are an amazing and free way to get introduced to flying in small aircraft. Slots fill up quickly on their website, so make sure you are planning!!</p>
+        <p><strong>CIVIL AIR PATROL FLIGHTS</strong> — <a href="https://www.gocivilairpatrol.com/cap-unit-locator" target="_blank" rel="noopener">gocivilairpatrol.com/cap-unit-locator</a> — If you are thinking about going into the military to be a pilot this is a great program to get into. It's more of a commitment than Young Eagles, but still a great way to get free flights especially if you're thinking military.</p>
+        <p><strong>GROUND SCHOOL OPTIONS</strong> — <a href="https://altoflight.com/" target="_blank" rel="noopener">altoflight.com</a> — <a href="https://okav.co/" target="_blank" rel="noopener">okav.co</a> — <a href="https://www.sportys.com" target="_blank" rel="noopener">sportys.com</a></p>
+        <p><strong>FLIGHT SCHOOL OPTIONS</strong> — <a href="http://sundanceairport.com/flight-academy" target="_blank" rel="noopener">sundanceairport.com/flight-academy</a> — <a href="https://altoflight.com/" target="_blank" rel="noopener">altoflight.com</a> — <a href="https://okav.co/" target="_blank" rel="noopener">okav.co</a></p>
+        <p><strong>FLIGHT SCHOOL SCHOLARSHIPS</strong> — <a href="https://www.aopa.org" target="_blank" rel="noopener">aopa.org</a> — <a href="https://www.eaa.org" target="_blank" rel="noopener">eaa.org</a></p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-header">I WANT TO BE AN AVIATION ENGINEER <span class="chev">⌄</span></button>
+      <div class="accordion-body">
+        <p><strong>SPEEDFEST</strong> — Speedfest is a engineering competition where teams build, design, and compete with a remote control airplane. They also make a promotional video and design helmets.</p>
+        <p><strong>DRONE COMPETITION</strong> — MHS is currently growing our drone program, and so far we compete in TSA Drone Challenge and the Fly Forward: Search and Rescue drone competition. Both are amazing engineering opportunities offering separate approaches to drone flight, coding, and building.</p>
+        <p><strong>TSA</strong> — TSA enhances personal development, leadership, and career opportunities in STEM, members integrate these concepts through extracurricular activities, competitions. MHS Aero has only competed in Flight Endurance (free flight) and Drone Challenge, but we are open to any others which can be found here. <a href="https://www.oktsa.org/competitive-events" target="_blank" rel="noopener">oktsa.org/competitive-events</a></p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-header">I WANT TO BE A ROCKETRY ENGINEER <span class="chev">⌄</span></button>
+      <div class="accordion-body">
+        <p><strong>SYSTEMSGO ROCKETRY</strong> — Rocketry program based in Fredericksburg, Texas, that empowers high school students to design, build, and launch original rockets. Through hands-on project-based learning, students tackle complex engineering challenges like reaching high altitudes or carrying scientific payloads.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-header">I WANT TO BE INVOLVED IN VOLUNTEERING AND LEADERSHIP <span class="chev">⌄</span></button>
+      <div class="accordion-body">
+        <p><strong>EAA Volunteering</strong> — EAA volunteering is a great way to get involved get brownie points for flight school scholarships. <a href="https://www.eaa.org/eaa/support-eaa/volunteer" target="_blank" rel="noopener">eaa.org/eaa/support-eaa/volunteer</a></p>
+        <p><strong>Caldwell Collection</strong> — Volunteering at the Calwell Collection gives you experience with vintage aircraft and networking. <a href="https://www.thecaldwellcollection.org/volunteer" target="_blank" rel="noopener">thecaldwellcollection.org/volunteer</a></p>
+        <p><strong>Aero Club Meetings and Volunteering</strong> — Second Tuesday and Fourth Thursday of every month, Aero Club has meetings hosting speakers, going over upcoming events, and getting ready for competitions. There's also multiple opportunities for volunteering such as Elementary Outreach!!</p>
+        <p><strong>Women in Aviation</strong> — Throughout the year, Aero Club attends Girls in Aviation in the fall and Women in Aviation in December. Both are great opportunities for girls to build connections and hear inspirational stories from amazing aeronautics women.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>MHS Aeronautics Club</footer>
+
+<script>
+document.querySelectorAll('.accordion-header').forEach(btn => {
+  btn.addEventListener('click', () => {
+    btn.parentElement.classList.toggle('open');
+  });
+});
+</script>
+
+</body>
+</html>
